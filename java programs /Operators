@@ -1,0 +1,80 @@
+
+//arthemetic operators
+
+import java.util.*;
+class Arthimetic {
+    public static void main(String[] args) {
+     Scanner sc =new Scanner(System.in);
+     //inputs 
+     System.out.println("enter the value of a : ");
+       int a=sc.nextInt();
+    System.out.println("enter the value of b : ");
+       int b=sc.nextInt();
+     //binary operators
+     int additon = a + b;
+     int subtraction= a - b;
+     int mul= a * b;
+     int remaindeModulus= a % b;
+      float divison= 0;
+     if (b!=0){
+         divison= a / b;
+     }
+  
+    System.out.println("additon = "+additon);
+    System.out.println("subtraction = "+subtraction);
+    System.out.println("mul = "+mul);
+    System.out.println("remaindeModulus = "+remaindeModulus);
+    System.out.println("division = "+divison);
+}
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+////arthmetic unary operatopers
+ class UnaryArthimetic {
+    public static void main(String[] args) {
+     Scanner sc =new Scanner(System.in);
+     //inputs 
+     System.out.println("enter the value of a : ");
+       int a=sc.nextInt();
+    System.out.println("enter the value of b : ");
+       int b=sc.nextInt();
+     //unary operators
+     //pre increment and decrement
+     int unaryPlus= +a;
+     int unaryMinus= -b;
+     //post increment and decrement
+     a++;
+     b--;
+    System.out.println("unaryPlus = "+unaryPlus);
+    System.out.println("unaryMinus = "+unaryMinus);
+    System.out.println("a after increment = "+a);
+    System.out.println("b after decrement = "+b);
+}
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Relational operators
+    class RelationalOperators {
+        public static void main(String[] args) {
+        Scanner sc =new Scanner(System.in);
+        //inputs 
+        System.out.println("enter the value of a : ");
+        int a=sc.nextInt();
+        System.out.println("enter the value of b : ");
+        int b=sc.nextInt();
+        //relational operators
+        boolean isEqual= (a == b);
+        boolean isNotEqual= (a != b);
+        boolean isGreater= (a > b);
+        boolean isLess= (a < b);
+        boolean isGreaterOrEqual= (a >= b);
+        boolean isLessOrEqual= (a <= b);
+        System.out.println("isEqual = "+isEqual);
+        System.out.println("isNotEqual = "+isNotEqual);
+        System.out.println("isGreater = "+isGreater);
+        System.out.println("isLess = "+isLess);
+        System.out.println("isGreaterOrEqual = "+isGreaterOrEqual);
+        System.out.println("isLessOrEqual = "+isLessOrEqual);
+    }
+    }
+
+//

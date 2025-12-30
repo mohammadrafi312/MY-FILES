@@ -84,3 +84,55 @@ public class Strings{
 
         }
     }
+//reverse using for loop 
+
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        System.out.println("enter the string : ");
+        Scanner sc =new Scanner (System.in);
+         String size=sc.next();
+          StringBuilder sb=new StringBuilder (size);
+          for(int i=0;i<sb.length()/2;i++){
+              int front=i;
+              int back=sb.length()-i-1;
+              
+              char frontChar=sb.charAt(front);
+              char backChar=sb.charAt(back);
+              
+              sb.setCharAt(front,backChar);
+              sb.setCharAt(back,frontChar);}
+       System.out.println(sb);
+            
+    }
+          
+}
+///reverse using inbuilt function
+import java.util.*;     
+class Main {
+    public static void main(String[] args) {
+        System.out.println("enter the string : ");
+        Scanner sc =new Scanner (System.in);
+         String size=sc.next();
+          StringBuilder sb=new StringBuilder (size);
+          sb.reverse();
+       System.out.println(sb);
+            
+    }
+          
+}
+//replace() method in StringBuilder class
+
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        System.out.println("enter the string : ");
+        Scanner sc =new Scanner (System.in);
+         String size=sc.next();
+          StringBuilder sb=new StringBuilder (size);
+         sb.replace(0,sb.length(),"writing");
+       System.out.println(sb);
+            
+    }
+          
+}
