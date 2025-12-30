@@ -1,0 +1,86 @@
+// // //declaration of stringbuilder
+import java.util.*;
+class StringBuild{
+    public static void main(String[] args) {
+        Scanner sc =new Scanner (System.in);
+StringBuilder sb = new StringBuilder("Apna College");
+     System.out.println(sb);
+    }
+}
+
+
+// //setCharAt() method in StringBuilder class
+import java.util.*;
+class StringBuild{
+    public static void main(String[] args) {
+        Scanner sc =new Scanner (System.in);
+          StringBuilder sb=new StringBuilder ("rafishaik");
+          sb.setCharAt( 1,'p');
+         System.out.println(sb);
+  
+    }
+
+}       
+//output: rapishaik
+//Get A Character from Index
+import java.util.*;
+class StringBuild{
+    public static void main(String[] args) {
+        Scanner sc =new Scanner (System.in);
+StringBuilder sb = new StringBuilder("Tony");
+     //Set Char
+     System.out.println(sb.charAt(0));
+    }
+}
+
+
+
+//insert() method in StringBuilder class
+import java.util.*;
+class StringBuild{
+    public static void main(String[] args) {
+        Scanner sc =new Scanner (System.in);
+          StringBuilder sb=new StringBuilder ("rafishaik");
+          
+         System.out.println(sb.insert(0,'p'));
+            
+    }
+          
+}
+//append() method in StringBuilder class
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc =new Scanner (System.in);
+          StringBuilder sb=new StringBuilder ("rafishaik");
+          sb.append(" "+"is welcomed to participate in goggle certification");
+         System.out.println(sb);
+            
+    }
+          
+}
+//delete() method in StringBuilder class
+
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc =new Scanner (System.in);
+          StringBuilder sb=new StringBuilder ("rafishaik");
+          sb.append(" "+"is welcomed to participate in goggle certification");
+          sb.delete(0,9);
+         System.out.println(sb);
+            
+    }
+          
+}
+//length() method in String class
+import java.util.*;
+public class Strings{
+    public static void main(String []args){
+        Scanner sc=new Scanner (System.in);
+        System.out.println("enter the string :");
+        String name=sc.nextLine();          
+                    System.out.println(name.length());
+
+        }
+    }
